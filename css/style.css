@@ -52,6 +52,9 @@ body {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999; 
 }
 .top-navigation > .content {
     width: 970px;
@@ -137,7 +140,8 @@ button:hover{
 }
 .icons .images h3{
   font-size: 1.463rem;
-  font-weight: bold;
+  font-weight: 400;
+  padding-top: 20px;
 }
 .icons {
   background-color: white;
